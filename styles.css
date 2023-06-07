@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&family=Open+Sans:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans';
+}
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 25px 0;
+}
+div{
+    font-family: 'Geologica', sans-serif;
+}
+button{
+    font-family: 'Open Sans';
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.encabezado-img{
+    background-image: url(Imagenes/vladimir-fedotov-iOfDBgrxht0-unsplash.jpg);
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.encabezado-img p{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.encabezado-img h1{
+    font-size: 70px;
+    padding: 20px 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container {
+    max-width: 800px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;
+  }
+.question-container {
+    max-width: 800px;
+    background-color: #ebeaea5c;
+    margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px 0;
+  font-size: 20px;
+  border: 1px transparent;
+  color: #696969;
+  border-radius: 20px;
+  text-align: center; /* Agrega esta línea para centrar el texto */
+
+}
+.question-container .option {
+    
+    display: block;
+    margin: 5px 14px 0px;
+    background-color: #696969;
+    padding: 5px;
+    border: 1px transparent;
+    border-radius: 15px;
+    color: #fff;
+    width: auto;
+    height: 35px;
+  }
+  .question-container .option:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  #submit{
+    display: inline-block;
+    text-decoration: none;
+    color: #696969;
+    margin: 10px 30px 10px;
+    padding: 5px 15px;
+    border-radius: 30px;
+  }
+  #submit:hover{
+    background-color: #000;
+    color: #fff;
+  }
+  .encabezado-img2{
+    background-image: url(Imagenes/vladimir-fedotov-iOfDBgrxht0-unsplash.jpg);
+    height: 900px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.encabezado-img2 p{
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.encabezado-img2 h1{
+    font-size: 70px;
+    padding: 20px 0;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
