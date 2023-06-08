@@ -146,7 +146,8 @@ nav a:hover{
     border-radius: 15px;
     color: #fff;
     width: auto;
-    height: 35px;
+    height: auto;
+    text-alig: left;
 }
 
 .diselected{
