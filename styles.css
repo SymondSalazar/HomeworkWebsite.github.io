@@ -84,6 +84,7 @@ nav a:hover{
     color: #fff;
     width: auto;
     height: auto;
+    text-align:left;
   }
   .question-container .option2 {
     align-items: center;
