@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personality test</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,6 +29,10 @@
 
 
           <div id="quiz">
+            <div class="question-container">
+              <p class="question">Write your name</p>
+              <input type="text" class="option2" id="inputName"></Input>
+            </div>
 
           <div class="question-container">
             <p class="question">1.-If you are in a debate group and you know the answer to a question, what would you do?</p>
@@ -171,12 +176,26 @@
             <button class="option">C.-Defend your idea and provide further explanations.</button>
           </div>
         </div>
-        <button id="submit" class="enviar">Submit</button>
-        <div id="score"></div>
-      </div>
         
+
+        <button id="submit" class="btn-submit">Submit</button>
+        <div class="overlay" id="overlay">
+        
+          <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"> <i class="fas fa-times"></i></a>
+            <h1 class="h1">Test Results</h1>
+            <p id="your-name" class="text"> Esto es un texto de ejemplo</p><br>
+            <p class="texto"> Being introverted is not bad, many people enjoy being this way <br>Here are some recommendations to stop being introverted:<br>1.-Engage in social activities and events that align with your interests.<br>2.-Practice active listening and ask questions to show genuine interest in others.<br>3.-Join clubs, organizations, or community groups to meet new people.<br>4.-Challenge yourself to step out of your comfort zone and try new experiences.<br>5.-Take small steps towards building social confidence, such as initiating conversations or speaking up in group settings.<br>6.-Seek support from a therapist or counselor who can provide guidance and techniques for overcoming social anxiety.<br>7.-Set realistic goals for social interactions and celebrate your progress.<br>8.-Focus on developing strong communication skills, including assertiveness and effective conversation techniques.<br>9.-Find balance between alone time and socializing to recharge and avoid burnout.<br>Remember that it's okay to be introverted, and embrace your unique qualities. </p>
+
+          </div>
+      </div>
+ 
+        
+    
       <script src="script.js"></script>
       <script src="https://unpkg.com/scrollreveal"></script>
       <script src="main.js"></script>
+      <script src="popup.js"></script>
+      
 </body>
 </html>
